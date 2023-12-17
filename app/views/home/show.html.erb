@@ -1,0 +1,8 @@
+<div class="container mx-auto px-5">
+  <h2 class="block text-xl">Recent additions</h2>
+  <ul class="mt-4 flex-col space-y-2 pl-4">
+    <% Article.all.each do |article| %>
+      <li class="block"><%= link_to(article.send("title_en"), article, locale: :en) %></li>
+    <% end %>
+  </ul>
+</div>

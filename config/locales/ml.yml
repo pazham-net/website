@@ -27,10 +27,10 @@
 #       "yes": yup
 #       enabled: "ON"
 
-en:
-  site_title: "pazham"
+ml:
+  site_title: "പഴം"
 
-  media: "Media"
-  no_media: "No media"
+  media: "പടങ്ങൾ"
+  no_media: "പടങ്ങൾ ഒന്നുമില്ല"
 
-  not_found: "Not found"
+  not_found: "ഇങ്ങനെ ഒരു സാധനം ഇവിടെയില്ല"
